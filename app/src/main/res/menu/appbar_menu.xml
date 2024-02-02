@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cut_action"
+        android:title="CUT"
+        android:icon="@drawable/cut_icon"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/search_action"
+        android:title="SEARCH"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/share_action"
+        android:title="SHARE"
+        android:icon="@drawable/share_icon"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/settings_action"
+        android:title="SETTINGS"
+        android:icon="@drawable/settings_icon"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/extras_action"
+        android:title="EXTRA1"
+        app:showAsAction="never"/>
+    <item android:id="@+id/extras1_action"
+        android:title="EXTRA2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sharewith_action"
+        android:title="EXTRA3"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
+        app:showAsAction="never"/>
+</menu>
